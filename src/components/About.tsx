@@ -1,11 +1,12 @@
 
-import { Github, Linkedin, Mail, Behance } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
+import BehanceIcon from "./icons/BehanceIcon";
 
 const About = () => {
   const socialLinks = [
     { 
       name: "Behance", 
-      icon: <Behance size={24} />, 
+      icon: <BehanceIcon size={24} />, 
       url: "https://behance.net", 
       ariaLabel: "Visit Arul's Behance Profile" 
     },
