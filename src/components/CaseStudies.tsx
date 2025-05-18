@@ -34,7 +34,7 @@ const CaseStudies = () => {
       title: "E-Commerce Product Page",
       subtitle: "UI Design",
       description: "Minimalist product page designed to increase clarity, usability, and conversions.",
-      image: "/lovable-uploads/736ec3c9-e1ed-40fd-9674-38fb3ea45282.png",
+      image: "", // Removed the image URL
       url: "#",
       featured: true,
       details: {
@@ -67,19 +67,8 @@ const CaseStudies = () => {
             <h3 className="text-xl font-serif font-medium text-navy mb-4 text-center">Featured Work</h3>
             <div className="bg-white rounded-xl shadow-lg overflow-hidden">
               <div className="grid grid-cols-1 lg:grid-cols-2">
-                {/* Product Image */}
-                <div className="relative h-full bg-gray-100">
-                  <AspectRatio ratio={4/5} className="h-full">
-                    <img 
-                      src={projects.find(p => p.featured)?.image} 
-                      alt="E-commerce Product Display"
-                      className="object-cover w-full h-full"
-                    />
-                  </AspectRatio>
-                </div>
-                
-                {/* Product Info */}
-                <div className="p-8 flex flex-col">
+                {/* Product Info - Now taking full width */}
+                <div className="p-8 flex flex-col col-span-1 lg:col-span-2">
                   <div className="mb-8">
                     <h2 className="font-serif text-3xl font-bold mb-2">
                       {projects.find(p => p.featured)?.details?.product}
