@@ -2,6 +2,9 @@
 import { ArrowRight } from "lucide-react";
 
 const Hero = () => {
+   const handleResumeClick = () => {
+    window.location.href = 'https://drive.google.com/file/d/1ci46DhG2ed9Y1UljbD_v3I-o3bWyDw40/view?usp=drivesdk';
+  };
   return (
     <section 
       id="top" 
@@ -25,7 +28,7 @@ const Hero = () => {
               View My Work
               <ArrowRight className="ml-2 h-5 w-5" />
             </a>
-            <a href="#resume" className="btn-outline">
+            <a onClick={handleResumeClick} className="btn-outline">
               Download Resume
             </a>
             <a href="#contact" className="btn-outline">

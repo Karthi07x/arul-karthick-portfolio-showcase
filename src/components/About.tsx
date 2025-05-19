@@ -7,19 +7,19 @@ const About = () => {
     { 
       name: "Behance", 
       icon: <BehanceIcon size={24} />, 
-      url: "https://behance.net", 
+      url: "https://www.behance.net/karthi07x", 
       ariaLabel: "Visit Arul's Behance Profile" 
     },
     { 
       name: "LinkedIn", 
       icon: <Linkedin size={24} />, 
-      url: "https://linkedin.com", 
+      url: "https://www.linkedin.com/in/arul-karthick?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app", 
       ariaLabel: "Connect with Arul on LinkedIn" 
     },
     { 
       name: "GitHub", 
       icon: <Github size={24} />, 
-      url: "https://github.com", 
+      url: "https://github.com/Karthi07x", 
       ariaLabel: "Check Arul's GitHub Projects" 
     },
     { 

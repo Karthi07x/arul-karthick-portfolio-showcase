@@ -3,26 +3,30 @@ import { Github, Linkedin, Mail } from "lucide-react";
 import BehanceIcon from "./icons/BehanceIcon";
 
 const Footer = () => {
-  const socialLinks = [
+   const socialLinks = [
     { 
       name: "Behance", 
-      icon: <BehanceIcon size={20} />, 
-      url: "https://behance.net", 
+      icon: <BehanceIcon size={24} />, 
+      url: "https://www.behance.net/karthi07x", 
+      ariaLabel: "Visit Arul's Behance Profile" 
     },
     { 
       name: "LinkedIn", 
-      icon: <Linkedin size={20} />, 
-      url: "https://linkedin.com", 
+      icon: <Linkedin size={24} />, 
+      url: "https://www.linkedin.com/in/arul-karthick?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app", 
+      ariaLabel: "Connect with Arul on LinkedIn" 
     },
     { 
       name: "GitHub", 
-      icon: <Github size={20} />, 
-      url: "https://github.com", 
+      icon: <Github size={24} />, 
+      url: "https://github.com/Karthi07x", 
+      ariaLabel: "Check Arul's GitHub Projects" 
     },
     { 
       name: "Email", 
-      icon: <Mail size={20} />, 
+      icon: <Mail size={24} />, 
       url: "mailto:arulkarthick47@gmail.com", 
+      ariaLabel: "Send an email to Arul" 
     },
   ];
 

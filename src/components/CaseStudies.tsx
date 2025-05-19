@@ -2,6 +2,12 @@
 import { ArrowRight } from "lucide-react";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 import { Card, CardContent } from "@/components/ui/card";
+import cityImage from "../assets/city.png";
+import sneakerImage from "../assets/sneaker.png";
+import nikeImage from "../assets/nike.png";
+import ecommerceImage from "../assets/ecomm.png";
+import fashionImage from "../assets/fashion.png";
+
 
 const CaseStudies = () => {
   const projects = [
@@ -10,40 +16,40 @@ const CaseStudies = () => {
       title: "City Tracker",
       subtitle: "City Bus Navigation App",
       description: "Smart urban mobility reimagined through intuitive bus tracking and route planning.",
-      image: "https://source.unsplash.com/random/800x600/?navigation",
-      url: "#"
+      image: cityImage,
+      url: "https://www.behance.net/gallery/225255445/City-Tracker-Seamless-City-Bus-Navigation-App/modules/1287565497"
     },
     {
       id: 2,
       title: "Sneaker Shopping App",
       subtitle: "Mobile E-Commerce",
       description: "A stylish eCommerce app optimized for user engagement and seamless navigation.",
-      image: "https://source.unsplash.com/random/800x600/?sneakers",
-      url: "#"
+      image: sneakerImage,
+        url: "https://www.behance.net/gallery/221802371/Sneaker-Shopping-App-A-Seamless-UIUX-Experience"
     },
     {
       id: 3,
       title: "Nike SuperRep Go",
       subtitle: "UI Design",
       description: "An immersive brand-centered product display with modern, clean UI.",
-      image: "https://source.unsplash.com/random/800x600/?nike",
-      url: "#"
+      image: nikeImage,
+        url: "https://www.behance.net/gallery/218168941/Nike-SuperRep-Go-Modern-UI-Design"
     },
     {
       id: 4,
       title: "E-Commerce Product Page",
       subtitle: "UI Design",
       description: "Minimalist product page designed to increase clarity, usability, and conversions.",
-      image: "https://source.unsplash.com/random/800x600/?ecommerce",
-      url: "#"
+      image: ecommerceImage,
+         url: "https://www.behance.net/gallery/226162101/E-Commerce-UI-Design-Clean-Modern-Product-Page"
     },
     {
       id: 5,
       title: "Fashion E-Commerce Display",
       subtitle: "UI/UX Design",
       description: "Functional layout meets visual elegance in this clean fashion product page.",
-      image: "https://source.unsplash.com/random/800x600/?fashion",
-      url: "#"
+      image: fashionImage,
+         url: "https://www.behance.net/gallery/226163109/Fashion-E-CommerceClean-Functional-Product-Display"
     }
   ];
 

@@ -32,6 +32,9 @@ const Certifications = () => {
       description: "Python programming fundamentals and application in data processing for design workflows."
     }
   ];
+   const handleResumeClick = () => {
+    window.location.href = 'https://drive.google.com/file/d/1ci46DhG2ed9Y1UljbD_v3I-o3bWyDw40/view?usp=drivesdk';
+  };
 
   return (
     <section id="certifications" className="section bg-gray-50">
@@ -65,7 +68,7 @@ const Certifications = () => {
           
           <div className="mt-12 text-center">
             <a 
-              href="#" 
+              onClick={handleResumeClick}
               className="btn-primary inline-flex items-center"
               id="resume"
             >
